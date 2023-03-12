@@ -1,0 +1,22 @@
+.nav-bar .row ul li img {
+  height: 20px;
+}
+
+.main-container .first-box ul li .fa-arrow-right-long {
+  padding: 0px 5px 0px 5px;
+  font-size: 16px;
+}
+.main-container .first-box ul li a {
+  text-decoration: none;
+}
+.main-container .first-box img {
+  height: 100px;
+}
+
+.third-box .row img {
+  height: 20px;
+}
+
+.footer .row img {
+  height: 250px;
+}/*# sourceMappingURL=style.css.map */

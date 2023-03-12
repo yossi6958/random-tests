@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Adantrip</title>
+</head>
+
+<body>
+
+    <!-- nav-bar-mobile -->
+    <div class="container nav-bar">
+        <div class="row p-2 bg-black text-white d-md-none">
+            <div class="col-11 fw-bold">Adantrip</div>
+            <div class="col-1 "><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </div>
+    <!-- nav-bar-desktop -->
+    <div class="container nav-bar">
+        <div class="row p-2 bg-black text-white d-none d-md-flex align-content-center justify-content-between">
+            <div class="col-1 fw-bold">Adantrip</div>
+            <div class="col-6">
+                <ul class="  text-light-emphasis d-flex list-unstyled justify-content-around">
+                    <li>Hotels</li>
+                    <li>Rooms</li>
+                    <li>Flights</li>
+                    <li>Cars</li>
+                    <li>Experiences</li>
+                </ul>
+            </div>
+            <div class="col-3 ">
+                <ul class="text-light-emphasis d-flex list-unstyled justify-content-around">
+                    <li>USD</li>
+                    <li><img src="./assets/united-states.png" alt="us logo"></li>
+                    <li><img src="./assets/use.png" alt="user"></li>
+                    <li>My Account</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- main-container -->
+    <div class="container p-4 main-container">
+        <div class="row">
+            <!-- left-side -->
+
+            <div class="col-md-7">
+
+                <!-- first-box -->
+
+                <div class="row first-box">
+                    <div class="col-md-10 ">
+                        <ul class="list-unstyled">
+                            <li class="h4">Buenos Aires<i class="fa-solid fa-arrow-right-long"></i>Ile de France </li>
+                            <li>Round Trip, Economy, 1 passenger</li>
+                            <li>Depart: Aug 15, 2019 <br> Return: Aug 16, 2019 </li>
+                            <li><a href="#">FLIGHT DETAILS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 d-none d-md-block"><img src="./assets/el-al logo.png" alt="el-al"></div>
+                </div>
+                <hr>
+                <!-- second-box -->
+                <div class="row second-box">
+                    <div class="row">
+                        <h4>Enter Passenger Details</h4>
+                        <p>Passenger 1</p>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-3"><input class="form-control" type="text" placeholder="month" name="month"
+                                id=""></div>
+                        <div class="col-md"><input class="form-control" type="text" placeholder="Day" name="day" id="">
+                        </div>
+                        <div class="col-md"><input class="form-control" type="text" placeholder="Year" name="year"
+                                id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Gender" name="gender"
+                                id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="First Name"
+                                name="First Name" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Last Name"
+                                name="Last Name" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Passport Serial"
+                                name="Passport Serial" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Citizenship"
+                                name="Citizenship" id=""></div>
+                    </div>
+
+
+
+
+
+                </div>
+                <hr>
+                <!-- third-box -->
+                <div class="row third-box">
+                    <div class="row">
+                        <h4>Enter Billing Information</h4>
+                        <p>Billing Address</p>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Street (line 1)"
+                                name="Street (line 1)" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Street (line 2)"
+                                name="Street (line 2)" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Postal Code"
+                                name="Postal Code" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="City" name="City"
+                                id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="State/Region"
+                                name="State/Region" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Select Country"
+                                name="Select Country" id=""></div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>Card Details</p>
+                    </div>
+                    <div class="row g-3 ">
+                        <div class="col-md-6"><input class="form-control" type="text" placeholder="Name on Card"
+                                name="Name on Card" id=""></div>
+                        <div class="col-md-6"><input class="form-control" type="text"
+                                placeholder="Credit/Debit Card Number" name="Credit/Debit Card Number" id=""></div>
+                        <div class="col-md-2"><input class="form-control" type="text" placeholder="(1) jan"
+                                name="(1) jan" id=""></div>
+                        <div class="col-md-2"><input class="form-control" type="text" placeholder="2018" name="2018"
+                                id=""></div>
+                        <div class="col-md-2"><input class="form-control" type="text" placeholder="Security Code"
+                                name="Security Code" id=""></div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li><img src="./assets/mastercard.png" alt="cc company"></li>
+                                <li><img src="./assets/Visa.png" alt="cc company"></li>
+                                <li><img src="./assets/discover new.png" alt="cc company"></li>
+                                <li><img src="./assets/maestro.png" alt="cc company"></li>
+                                <li><img src="./assets/AE-logo.png" alt="cc company"></li>
+                                <li><img src="./assets/Visa-electronic.png" alt="cc company"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <hr>
+                <!-- fourth-box -->
+                <div class="row fourth-box g-3">
+                    <div class="row mt-3">
+                        <div class="col-md-10">
+                            <h5>Total</h5>
+                            <p>By clicking book now you agree with terms and conditions and money <br> back gurantee.
+                                Thank you for trusting our service. </p>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>1907.68 dollars</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12"><button class="btn btn-primary" type="button">Book Now</button></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+
+            <!-- right-side -->
+            <div class="col-md-4">
+                <div class="row p-4 border border-1 border-dark-subtle mt-3">
+                    <h4>Booking Summary</h4>
+                    <p>Round Trip, Economy, 1 passenger</p>
+                    <p>Depart: Aug 15, 2019 <br> Return: Aug 16, 2019</p>
+                </div>
+                <div class="row  p-4 border border-1 border-dark-subtle mt-2">
+                    <h4>Charges</h4>
+                    <p>
+                    <ul class="d-flex justify-content-between list-unstyled align-items-end">
+                        <li>1 passenger <br> Economy</li>
+                        <li> 1907.68 dollars</li>
+                    </ul>
+                    <hr>
+                    <ul class=" d-flex justify-content-between list-unstyled">
+                        <li>Total</li>
+                        <li>1907.68 dollars</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="row p-4 border border-1 border-dark-subtle mt-2">
+                    <p>Manage your bookings! <br> You're in control of your bookings - no registration required.</p>
+                    <p>Customer support available 24/7 worldwide! <br>Website and customer support in English and 41
+                        other languages.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container footer">
+            <div class="row bg-dark-subtle p-4 border border-1 border-dark-subtle mt-3">
+                <div class="col-md-3 d-flex flex-column align-items-center">
+                    <h3>Adantrip</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum cumque impedit, a odio atque
+                        dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam itaque eveniet nihil,
+                        aperiam repellendus!</p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled d-flex flex-column align-items-center justify-content-center">
+                        <li><strong>lorem</strong> </li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled d-flex flex-column align-items-center justify-content-center">
+                        <li><strong>lorem</strong> </li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled d-flex flex-column align-items-center justify-content-center">
+                        <li><strong>lorem</strong> </li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ul>
+                </div>
+                <div class="col-md-3"><img class="img-fluid" src="./assets/ads.png" alt=""></div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="container">
+            <div class="row bg-black text-white">
+                <div class="col">Copyright@ 2018 <strong>Adantrip</strong>. All rights reserved. </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

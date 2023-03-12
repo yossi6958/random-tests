@@ -1,0 +1,43 @@
+.nav-bar {
+  .row {
+    ul {
+      li {
+        img {
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+.main-container {
+  .first-box {
+    ul {
+      li {
+        .fa-arrow-right-long {
+          padding: 0px 5px 0px 5px;
+          font-size: 16px;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+    img {
+      height: 100px;
+    }
+  }
+}
+.third-box {
+  .row {
+    img {
+      height: 20px;
+    }
+  }
+}
+.footer {
+  .row {
+    img {
+      height: 250px;
+    }
+  }
+}
